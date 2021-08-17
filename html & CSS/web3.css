@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Caveat', cursive;
+}
+body{
+	margin:0;
+	height: 100vh;
+	width:100vw;
+	overflow: hidden;
+	font-family:"leto",sans-serif;
+	font-weight: 700;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	color: dimgray;
+	background-color: #ecf0f3;
+
+}
+.im{
+
+	height: 320px;
+	width: 320px;
+	border-radius: 10%;
+	/*box-shadow: 0px 0px 2px gray,0px 0px 0px 5px whitesmoke,8px 8px 15px dimgray,-8px -8px 15px #fff;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-div{
+
+width:530px;
+height:900px;
+padding: 60px 35px 35px 35px;
+border-radius:40px;
+background-color:#ecf0f3;
+box-shadow: 13px 13px 20px #cbced1,-13px -13px 20px white; }
+.lol{
+
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+.back{
+
+	align-items: center;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	width: 100PX;
+	height: 100px;
+	border-radius: 50%;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 700;
+	color: white;
+	background-color: green;
+	text-align: center;
+	box-shadow: 3px 3px 8px #b1b1b1,-3px -3px 8px #fff;
+	transition: all 0.5s;
+}
+.back:hover{
+	background-color:greenyellowE ;
+}
+.back:active{
+	background-color: lightseagreen;

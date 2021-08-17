@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Caveat', cursive;
+	box-sizing: border-box;
+}
+body{
+	background-color: lightgray;
+	/*size: 700px;*/
+
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #a3e4d7 ;
+	padding: 6px 6%;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+
+}
+.logo{
+
+	width: 60px;
+	margin: 15px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 2px gray,0px 0px 0px 5px whitesmoke,8px 8px 15px dimgray,-8px -8px 15px #fff;
+
+	
+}
+.navigation,.n2{
+	display: flex;
+	align-items: center;
+
+}
+.navigation ul li {
+	list-style: none;
+	display: inline-block;
+
+}
+.navigation ul li img{
+
+	width: 35px;
+	margin: 0px 15px;
+}
+.icon img{
+	width: 38px;
+	height: 38px;
+	cursor: pointer;
+	margin-left: 30px;
+}
+.search{
+
+	background: #efefef;
+	width: 230px;
+	border-radius: 10%;
+	display: flex;
+	align-items: center;
+	padding: 0 15px
+}
+.search img{
+
+	width: 18px;
+}
+.search input{
+	width: 100%;
+	background: transparent;
+	padding: 10px;
+	outline: none;
+	border: 0;
+}
+.online{
+	position: relative;
+}
+.online::after{
+
+	content: '';
+	width: 8px;
+	height: 8px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	background: #41db51;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+.a1{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 4px;
+
+}
+.a2{
+	background:  #bbc2c0 ;
+	flex-basis: 25%;
+	position: sticky;
+	top: 70px;
+	align-self: flex-start;
+	height: 100vh ;
+
+}
+.a4{
+	background:  #bbc2c0  ;
+	flex-basis: 25%;
+	position: sticky;
+	top: 70px;
+	align-self: flex-start;
+	height: 100vh;
+}
+.a3{
+	flex-basis: 60%;
+}
+	
+.leftbar a{
+	text-decoration: none;
+	text-align: center;
+	display: flex;
+	margin-bottom: 35px;
+	width: fit-content;
+	color: black ;
+}
+.leftbar a img{
+	width: 23px;
+	margin-right: 15px;
+}
+.leftbar{
+	border-bottom: 3px solid black;
+}
+.leftbar a:last-child{
+
+	color: #black;
+	align-items: center;
+
+}
+
+.rightbar{
+	border-bottom: 2px black solid;
+	/*border-bottom: 1px solid gray;*/
+}
+.rightbar a{
+	/*display:none;*/
+	margin-bottom: 30px;
+	width: 25px;
+	color: black;
+	
+}
+.rightbar a img{
+	width: 35px;
+	margin-right: 35px ;
+	margin-left: 65px;
+	margin-top: 15px;
+}
+.downrbar{
+	margin-top: 10px;
+	margin-left: 170px;
+	margin-right: 50px;
+	width: fit-content;
+}
+.downlbar{
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-left: 130px;
+	width: fit-content;
+}
